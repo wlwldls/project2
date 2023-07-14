@@ -1,0 +1,67 @@
+#logo2>a>img{
+    width: 90px;
+}
+#copyright>ul{
+    width: 540px;
+    height: 20px;
+    
+}
+#copyright>ul>li>a{
+    color: gray;
+    
+}
+#copyright>ul>li>#a3{
+    color: #c14c53;
+    font-weight: 700;
+}
+#copyright>ul>li{
+    float: left;
+    display: block;
+    text-align: center; 
+    font-size: 3px; 
+}
+#copyright>ul>#line1{
+    width: 70px;
+    height: 14px;
+}
+#copyright>ul>#line2{
+    width: 100px;
+    height: 14px;
+    border-left: 1px solid gray;
+}
+#copyright>ul>#line3{
+    width: 100px;
+    height: 14px;
+    border-left: 1px solid gray;
+}
+#copyright>ul>#line4{
+    width: 100px;
+    height: 14px;
+    border-left: 1px solid gray;
+}
+#copyright>ul>#line5{
+    width: 100px;
+    height: 14px;
+    border-left: 1px solid gray;
+}
+#copyright>ul>#line6{
+    width: 55px;
+    height: 14px;
+    border-left: 1px solid gray;
+}
+#copyright>p{
+    font-size: 3px;
+    color: gray;
+    position: relative;
+    top: 10px;
+    left: 15px; 
+}
+#logo3>a{
+    float: right;
+}
+#logo3>a>img{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    bottom: 20px;
+}

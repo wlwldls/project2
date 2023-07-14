@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.RecordMapper">
+	<select id="getListWithPaging" resultType="com.spring.domain.MemberVO">
+		select stdnum, username, userid
+		from memberinfo 
+		where schoolname = #{schoolname} and grade = #{grade} and classnum = #{classnum}
+		and memcheck = 0
+		order by stdnum asc 
+	</select>
+	
+	<select id="getRecord" resultType="com.spring.domain.RecordVO">
+		select * from recordtbl where userid = #{userid}
+	</select>
+</mapper>

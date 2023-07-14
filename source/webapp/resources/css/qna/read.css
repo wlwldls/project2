@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 790px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* background-color: bisque; */
+}
+#wrap>#content1{
+    width: 790px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-bottom: 1px solid #cfcfcf;
+    /* background-color: bisque; */
+}
+#content1>h1{
+    font-size: 20px;
+    color: #555;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+#content1>#path{
+    float: right;
+    width: 200px;
+    height: 12px;
+    margin-top: 15px;
+}
+#content1>#path>a{
+    font-size: 12px;
+    color: #666;
+}
+#path>strong{
+    font-size: 12px;
+    color: #666;
+}
+#content2{
+    width: 790px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#noticehead{
+    width: 100%;
+    border-top: 2px solid #747474;
+    border-collapse: collapse;
+}
+#tblhead{
+    display: table-row-group;
+}
+#tblmain{
+    display: table-row-group;
+}
+#htr{
+    border-bottom: 1px solid #ddd;
+}
+#title{
+    width: 75px;
+    height: 34px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#ttd{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 5px 7px;
+}
+#tinput{
+	font-size: 12px;
+    color: #505050;
+    width: 440px;
+    border: none;
+	outline: none;
+	height: 17px;
+	padding: 0 0 2px 0;
+}
+#important{
+    width: 118px;
+    height: 34px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#itd{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 5px 7px;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+#main1{
+    border-bottom: 1px solid #ddd;
+}
+#writer{
+    width: 75px;
+    height: 34px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#wtd{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 5px 7px;
+    width: 440px;
+    font-size: 12px;
+    color: #505050;
+}
+#regdate{
+    width: 118px;
+    height: 34px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#rtd{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 5px 7px;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+#tblbody{
+    width: 100%;
+    border-collapse: collapse;
+}
+#main2{
+    border-bottom: 1px solid #ddd;
+}
+#content{
+    width: 75px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#ctd{
+    padding: 8px 5px 7px;
+    font-size: 12px;
+    color: #505050;
+}
+#contentbox{
+	width: 700px;
+	height: 300px;
+	overflow: scroll;
+}
+#main3{
+    border-bottom: 1px solid #ddd;
+}
+#file{
+    width: 75px;
+    height: 34px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    font-weight: bold;
+}
+#ftd{
+    padding: 8px 5px 7px;
+    font-size: 12px;
+    color: #505050;
+}
+#replytitle{
+	margin-top: 30px;
+	border-bottom: 1px solid #b3b3b3;
+}
+.register_submit{
+	margin-top: 20px;
+	float: right;
+}
+#addReplyBtn{
+	width: 80px;
+	height: 30px;
+	font-size: 12px;
+	margin-top: 20px;
+}
+#list_btn{
+	width: 45px;
+	height: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: #377db6;
+	vertical-align: middle;
+    border: 0px solid #b3b3b3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#modify_btn{
+	width: 45px;
+	height: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: #377db6;
+	vertical-align: middle;
+    border: 0px solid #b3b3b3;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#replybox{
+	padding: 10px 15px;
+	border-bottom: 1px solid #b3b3b3;
+}
+#replycont{
+	margin-top: 10px;
+}
+.pagination{
+	width: 360px;
+	height: 20px;
+	margin: 0 auto;
+}
+.pagination>li{
+	float: left;
+	display: block;
+	width: 27px;
+}
+.paginate_button.active_list {
+  	color: #377cb6;
+  	font-weight: bold;
+}
+#num{
+	font-size: 17px;
+	width: 17px;
+	color: #505050;
+}
+#pre{
+	width: 16px;
+	height: 13px;
+}
+#next{
+	width: 16px;
+    height: 13px;
+}

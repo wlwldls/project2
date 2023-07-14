@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.QnAMapper">
+	<insert id="insertBoard">
+		insert into qnatbl (title, content, writer, ptype, filename)
+		values(#{title}, #{content}, #{writer}, #{ptype}, #{filename})
+		<selectKey keyProperty="bno" resultType="int" order="AFTER">
+			select qnatbl_seq.currval as bno from dual
+		</selectKey>
+	</insert>
+	
+	<select id="getList" resultType="com.spring.domain.QnAVO">
+		<![CDATA[select /*+INDEX_DESC(QNATBL QNATBL_PK)*/
+		rownum rn, bno, title, content, writer, ptype, regdate, updatedate, filename
+		from qnatbl]]>
+	</select>
+	
+	<select id="getListWithPaging" resultType="com.spring.domain.QnAVO">
+		<![CDATA[
+		select bno, title, content, writer, ptype, regdate, updatedate, filename
+		from
+		(select /*+INDEX_DESC(QNATBL QNATBL_PK)*/
+		rownum rn, bno, title, content, writer, ptype, regdate, updatedate, filename
+		from qnatbl where]]>
+		<include refid="criteria"></include>
+		<![CDATA[rownum <= #{pageNum} * #{amount}
+		)
+		where rn > (#{pageNum} -1) * #{amount}]]>
+	</select>
+	
+	<select id="getTotalCount" resultType="int">
+		select count(*) from qnatbl
+		<if test="typeArr!=null and typeArr.length!=0">
+			<trim prefix="WHERE" suffixOverrides="AND">
+				<include refid="criteria"></include>
+			</trim>
+		</if>
+	</select>
+	
+	<select id="read" resultType="com.spring.domain.QnAVO">
+		select * from qnatbl where bno = #{bno}
+	</select>
+	
+	<update id="modifyboard">
+		update qnatbl set title = #{title}, content = #{content}, filename = #{filename} where bno = #{bno}
+	</update>
+	
+	<delete id="removeboard">
+		delete qnatbl where bno = #{bno}
+	</delete>
+	
+	<sql id="criteria">
+		<trim prefix="(" suffix=") AND " prefixOverrides="OR">
+			<foreach item="type" collection="typeArr">
+				<trim prefix="OR">
+					<choose>
+						<when test="type == 'T'.toString()">
+							title like '%'||#{keyword}||'%'
+						</when>
+						<when test="type == 'C'.toString()">
+							content like '%'||#{keyword}||'%'
+						</when>
+						<when test="type == 'W'.toString()">
+							writer like '%'||#{keyword}||'%'
+						</when>
+						<when test="type == 'P'.toString()">
+							ptype like '%'||#{keyword}||'%'
+						</when>
+					</choose>
+				</trim>
+			</foreach>
+		</trim>
+	</sql>
+</mapper>

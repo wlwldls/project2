@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.TimeMapper">
+	<select id="getTimetbl" resultType="com.spring.domain.TimetblVO">
+	        select
+	        *
+	        from timetbl
+	        where schoolname = #{schoolname}
+	        and grade = #{grade}
+	        and classnum = #{classnum} order by timenum asc
+	</select>
+</mapper>

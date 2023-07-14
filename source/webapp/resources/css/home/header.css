@@ -1,0 +1,78 @@
+#logo1>a>img{
+    position: relative;
+    width: 150px;
+    top: 20px;
+}
+#menu>#smbox1{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+#menu>#smbox1>select{
+    width: 148px;
+    height: 24px;
+}
+#menu>#smbox1>a>button{
+    width: 33px;
+    height: 24px;
+}
+#top-signup>ul{
+    width: 300px;
+    height: 23px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    
+}
+#top-signup>ul>li{
+    float: left;
+    display: block;
+    width: 70px;
+    height: 16px;
+    text-align: center;
+    font-size: 12px;  
+}
+#top-signup>ul>#line{
+    border-left: 1px solid gray;
+}
+#top-signup>ul>li>a{
+    color: gray;
+    
+}
+#top-signup>ul>li>#a3{
+    color: #c14c53;
+    font-weight: 700;
+}
+#top-signup>ul>li>#a4{
+    color: #377cb6;
+    font-weight: 700;
+}
+#nav>ul{
+    width: 980px;
+    height: 55px;
+}
+#nav>ul>li{
+    float: left;
+    display: block;
+    width: 160px;
+    height: 55px;
+    text-align: center;
+}
+#nav>ul>li>a{
+    display: block;
+    width: 160px;
+    height: 55px;
+    position: absolute;
+}
+
+#nav>ul>li>a>div{
+    position: relative;
+    top: 15px;
+}
+#nav>ul>li>a>.section{
+    border-left: 1px solid gray;
+}
+#nav>ul>li>a>div{
+    color: #666;
+    font-weight: 700;
+}

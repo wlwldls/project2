@@ -1,0 +1,483 @@
+.imgclass{
+    border-left: 1px solid #666;
+}
+input{
+	padding-left: 5px;
+}
+#wrap>#content1{
+    width: 850px;
+    height: 40px;
+    margin-top: 7px;
+    border-bottom: 1px solid #cfcfcf;
+    /* background-color: bisque; */
+}
+#content1>h1{
+    font-size: 20px;
+    color: #555;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+#content1>#path{
+    float: right;
+    width: 200px;
+    height: 12px;
+    margin-top: 15px;
+}
+#content1>#path>a{
+    font-size: 12px;
+    color: #666;
+}
+#path>strong{
+    font-size: 12px;
+    color: #666;
+}
+#content2{
+    width: 850px;
+    height: 100px;
+}
+#content2>img{
+    float: left;
+    margin-top: 20px;
+}
+#content3{
+    width: 850px;
+    height: 500px;
+    margin-top: 30px;
+}
+#content3>#c3top{
+    width: 850px;
+    height: 30px;
+    border-bottom: 3px solid #666;
+}
+#c3top>h3{
+    float: left;
+    color: #046bbb;
+    font-size: 17px;
+}
+#c3top>p{
+    float: right;
+    color: #666;
+    font-size: 12px;
+}
+#name{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#name>#namelabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#name>#namelabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#name>#memberName{
+    margin-top: 8px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+#id{
+    width: 850px;
+    height: 80px;
+    border-bottom: 1px solid #666;
+}
+#id>#idlabel{
+    float: left;
+    width: 200px;
+    height: 80px;
+}
+#id>#idlabel>p{
+    margin-top: 26px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#id>#memberId{
+    margin-top: 8px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}#id>#idError{
+    font-size: 13px;
+}
+#id>#idCheck{
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    background-color: #666;
+    color: white;
+}
+#id>p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+#pwd{
+    width: 850px;
+    height: 100px;
+    border-bottom: 1px solid #666;
+}
+#pwd>#pwdlabel{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+#pwd>#pwdError{
+    font-size: 13px;
+}
+#pwd>#pwdlabel>p{
+    margin-top: 40px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#pwd>#memberPwd{
+    margin-top: 8px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+#pwd>#p1{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+#pwd>#p2{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+#pwdCheck{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#pwdCheck>#pwdchcklabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#pwdCheck>#pwdchcklabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#pwdCheck>#memberPwdChck{
+    margin-top: 8px;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+#pwdCheck>#pwdchkError{
+    font-size: 13px;
+}
+#rrNum{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#rrNum>#rrNumlabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#rrNum>#rrNumlabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#rrNum>input{
+    margin-top: 8px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+#rrNum>#memberBirthNumError{
+    font-size: 13px;
+}
+#rrNum>span{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #666;
+}
+#addr{
+    width: 850px;
+    height: 120px;
+    border-bottom: 1px solid #666;
+}
+#addr>#addrlabel{
+    float: left;
+    width: 200px;
+    height: 120px;
+}
+#addr>#addrlabel>p{
+    margin-top: 45px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+.postclass{
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+#addr>input{
+    margin-top: 9px;
+}
+#addr>#addrBtn{
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    background-color: #666;
+    color: white;
+}
+#content4{
+    width: 850px;
+    height: 250px;
+    margin-top: 30px;
+}
+#content4>#c4top{
+    width: 850px;
+    height: 30px;
+    border-bottom: 3px solid #666;
+}
+#c4top>h3{
+    float: left;
+    color: #046bbb;
+    font-size: 17px;
+}
+#personalChk{
+    width: 850px;
+    height: 80px;
+    border-bottom: 1px solid #666;
+}
+#personalChk>#personalChklabel{
+    float: left;
+    width: 200px;
+    height: 80px;
+}
+#personalChk>#personalChklabel>p{
+    margin-top: 18px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#personalChk>label>input{
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+#personalChk>label>span{
+    margin-right: 8px;
+    position: relative;
+    font-size: 15px;
+    color: #666;
+    bottom: 5px;
+}
+#email{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#email>#emaillabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#email>#emaillabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#email>#emailId{
+    margin-top: 9px;
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+#email>#emailname{
+    margin-top: 9px;
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+#email>select{
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+}
+#email>select>option{
+    font-size: 15px;
+}
+#phoneNum{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#phoneNum>#phoneNumlabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#phoneNum>#phoneNumlabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#mobilecont>select{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+#mobilecont>input{
+    margin-top: 9px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+#content5{
+    width: 850px;
+    height: 230px;
+    margin-top: 5px;
+}
+#content5>#c5top{
+    width: 850px;
+    height: 30px;
+    border-bottom: 3px solid #666;
+}
+#c5top>h3{
+    float: left;
+    color: #046bbb;
+    font-size: 17px;
+}
+#memberChk{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#memberChk>#memberChklabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#memberChk>#memberChklabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#memberChk>label>input{
+    margin-top: 13px;
+    width: 20px;
+    height: 20px;
+}
+#memberChk>label>span{
+    margin-right: 8px;
+    position: relative;
+    font-size: 15px;
+    color: #666;
+    bottom: 5px;
+}
+#school{
+    width: 850px;
+    height: 80px;
+    border-bottom: 1px solid #666;
+}
+#school>#schoollabel{
+    float: left;
+    width: 200px;
+    height: 80px;
+}
+#school>#schoollabel>p{
+    margin-top: 26px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#school>#schoolName{
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+}
+#school>#grade{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+#school>#class{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+#school>#stdNumError{
+    font-size: 13px;
+}
+#school>input{
+    margin-top: 9px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    color: #666;
+}
+#school>p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+#singupDate{
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid #666;
+}
+#singupDate>#singupDatelabel{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+#singupDate>#singupDatelabel>p{
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #666;
+}
+#singupDate>input{
+    margin-top: 8px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: #666;
+}
+#content6{
+    margin-top: 15px;
+    width: 850px;
+    height: 50px;
+    text-align: center
+}
+#content6>a{
+    margin-right: 5px;
+}
+#content6>a>img{
+    width: 130px;
+    height: 50px;
+}

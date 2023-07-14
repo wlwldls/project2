@@ -1,0 +1,117 @@
+input{
+	padding-left: 5px;
+}
+#wrap>#content1{
+    width: 830px;
+    height: 40px;
+    margin-top: 7px;
+    border-bottom: 1px solid #cfcfcf;
+    /* background-color: bisque; */
+}
+#content1>h1{
+    font-size: 20px;
+    color: #555;
+    width: 63px;
+    height: 30px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+#content1>#path{
+    float: right;
+    width: 160px;
+    height: 12px;
+    margin-top: 15px;
+}
+#content1>#path>a{
+    font-size: 12px;
+    color: #666;
+}
+#path>strong{
+    font-size: 12px;
+    color: #666;
+}
+#notice{
+    width: 830px;
+    height: 156px;
+    /* background-color: cadetblue; */
+}
+#notice>p{
+    font-size: 12px;
+    float: left;
+    background: url(./images/neo_txt_gray_dot.png)
+    3px 6px no-repeat;
+    padding-left: 12px;
+    margin-top: 15px;
+}
+#login{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 410px;
+    height: 380px;
+    /* background-color: chocolate; */
+    border: 1px solid #ddd;
+    border-top: 4px solid #347bb4;
+}
+#login>h1{
+    margin-left: 5px;
+}
+#login>h1>span{
+    font-size: 20px;
+    color: #046bbb;
+}
+#login>#id_input{
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+
+    
+}
+#id_input>form>#userid{
+    width: 120px;
+    height: 25px;
+    float: left;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+#id_input>form>#userpwd{
+    width: 120px;
+    height: 25px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+}
+#id_input>form>a{
+    position: relative;
+    bottom: 44px;
+    left: 3px;
+}
+#misstxt{
+    color: #505050;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+
+}
+#searchbtn{
+    position: relative;
+    top: 35px;
+    left: 90px;
+}
+#signuptxt{
+    font-size: 13px;
+    color: #505050;
+    position: relative;
+    top: 50px;
+    margin-left: 5px;
+    border-top: 1px solid #ddd;
+}
+#information{
+    position: relative;
+    top: 70px;
+    left: 5px;
+}

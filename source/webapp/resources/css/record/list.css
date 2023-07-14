@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 790px;
+    height: 645px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+#wrap>#content1{
+    width: 790px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-bottom: 1px solid #cfcfcf;
+    /* background-color: bisque; */
+}
+#content1>h1{
+    font-size: 20px;
+    color: #555;
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+#content1>#path{
+    float: right;
+    width: 180px;
+    height: 12px;
+    margin-top: 15px;
+}
+#content1>#path>a{
+    font-size: 12px;
+    color: #666;
+}
+#path>strong{
+    font-size: 12px;
+    color: #666;
+}
+#content2{
+    width: 790px;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+table{
+    width: 790px;
+    border-collapse: collapse;
+    border-top: 2px solid #747474;
+}
+thead{
+    height: 35px;
+}
+th{
+    text-align: center;
+    border-bottom: 1px solid #b3b3b3;
+}
+#stdnum{
+    width: 66px;
+}
+#username{
+    width: 477px;
+}
+#userid{
+    width: 75px;
+}
+#custom{
+    width: 171px;
+}
+tr{
+    height: 36px;
+    border-bottom: 1px solid #b3b3b3;
+}
+td{
+    text-align: center;
+    coloer: #505050;
+}
+.board_page{
+	height: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.paginate_button.active_list {
+  	color: #377cb6;
+  	font-weight: bold;
+}
+.pagination{
+	width: 360px;
+	height: 20px;
+	margin: 0 auto;
+}
+li{
+	float: left;
+	display: block;
+	width: 27px;
+}
+#num{
+	font-size: 17px;
+	width: 17px;
+	color: #505050;
+}
+#write_btn{
+	width: 45px;
+	height: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: #377db6;
+	vertical-align: middle;
+    border: 0px solid #b3b3b3;
+    cursor: pointer;
+}
+#modify_btn{
+	width: 45px;
+	height: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: #377db6;
+	vertical-align: middle;
+    border: 0px solid #b3b3b3;
+    cursor: pointer;
+}

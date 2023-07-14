@@ -1,0 +1,228 @@
+* {box-sizing: border-box;}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    float: left;
+    display: block;
+  }
+.mySlides {
+    display: none;
+    width: 380px;
+    height: 155px;
+}
+.textOver{
+    float: left;
+    display: block;
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 270px;
+}
+#cont1{
+    background: url(./images/visual_bg.png)
+}
+#box1{
+    background: url(./images/sts_img_sm.png)
+    left bottom no-repeat;
+}
+#dung{
+    width: 600px;
+    height: 370px;
+    float: right;
+    position: relative;
+}
+#cont1>#box1>#dung>a{
+    display: block;
+    width: 180px;
+    height: 165px;
+    position: absolute;
+    background: url(./images/visualboxsPluse.png)
+    right bottom no-repeat;
+}
+#cont1>#box1>#dung>#dung1{
+    background-color: #12558a;
+    top: 39px;
+    left: 58px;
+}
+#cont1>#box1>#dung>#dung2{
+    background-color: #126aa9;
+    top: 39px;
+    left: 239px;
+}
+#cont1>#box1>#dung>#dung3{
+    background-color: #286b95;
+    top: 39px;
+    left: 420px;
+}
+#cont1>#box1>#dung>#dung4{
+    background-color: #4d7d91;
+    top: 205px;
+    left: 239px;
+}
+#cont1>#box1>#dung>#dung5{
+    background-color: #087eae;
+    top: 205px;
+    left: 420px;
+}
+#cont1>#box1>#dung>#dung6{
+    top: 371px;
+    left: 420px;
+    background-color: #3076a1;
+}
+#cont1>#box1>#dung>a>img{
+    vertical-align: middle;
+    margin-top: 45px;    
+}
+#cont1>#box1>#dung>#dung1>#dimg1{
+    margin-left: 60px;
+}
+#cont1>#box1>#dung>#dung2>#dimg2{
+    margin-left: 67px;
+}
+#cont1>#box1>#dung>#dung3>#dimg3{
+    margin-left: 60px;
+}
+#cont1>#box1>#dung>#dung4>#dimg4{
+    margin-left: 60px;
+}
+#cont1>#box1>#dung>#dung5>#dimg5{
+    margin-left: 67px;
+}
+#cont1>#box1>#dung>#dung6>#dimg6{
+    margin-left: 70px;
+}
+#cont2>#box2>#inbox2{
+    width: 980px;
+    height: 155px;
+}
+#cont2>#box2>#inbox2>#notice{
+    display: block;
+    float: left;
+    width: 390px;
+    height: 155px;
+}
+#notice>#tab-btn{
+    width: 390px;
+    height: 20px;
+    box-sizing: border-box;
+}
+#inbox2>#notice>#tab-btn>a>#more{
+    float: right;
+    margin-top: 5px;
+}
+#inbox2>#notice>#tab-cont{
+    width: 390px;
+    height: 135px;
+}
+#inbox2>#notice>#tab-cont>ul{
+    position: relative;
+    top: 5px;
+    width: 390px;
+    height: 135px;
+}
+#inbox2>#notice>#tab-cont>ul>li{
+    margin-bottom: 1px;
+}
+#tab-cont>ul>li>a{
+    display: block;
+    width: 390px;
+    height: 30px;
+    color: #333333;
+}
+#tab-cont>ul>li>a>img{
+    margin-top: 5px;
+    float: left;
+}
+#tab-cont>ul>li>a>span{
+    font-size: 12px;
+    color: #383d41;
+}
+#tab-cont>ul>li>a>span:nth-child(2){
+    margin-left: 5px;
+}
+#tab-cont>ul>li>a>span:nth-child(3){
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+}
+#inbox2>#gallery{
+    width: 380px;
+    height: 155px;
+    margin-left: 20px;
+}
+#gallery>#gallery1>a{
+    display: block;
+}
+#gallery>#gallery1>a>#banner1{
+    width: 170px;
+    height: 155px;
+    display: block;
+    float: left;
+}
+#gallery>#gallery1>#large{
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #505050;
+}
+#gallery>#gallery1>#small{
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #505050;
+}
+#gallery>#gallery1>a>#banner2{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 130px;
+    margin-left: 20px;
+}
+#gallery>#gallery2>a>#banner1{
+    width: 170px;
+    height: 155px;
+    display: block;
+    float: left;
+}
+#gallery>#gallery2>#large{
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #505050;
+}
+#gallery>#gallery2>#small{
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #505050;
+}
+#gallery>#gallery2>a>#banner2{
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 130px;
+}
+#cont3>#box3>ul{
+    width: 980px;
+}
+#cont3>#box3>ul>#first{
+    margin: 10px 0px 10px 0px;
+}
+#cont3>#box3>ul>li{
+    float: left;
+    margin: 10px 0px 10px 158px;
+}
+#cont3>#box3>ul>li>a>#img1{
+    width: 122px;
+    height: 49px;
+}

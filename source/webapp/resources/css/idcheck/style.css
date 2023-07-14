@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 500px;
+    height: 300px;
+    padding: 11px 10px 15px 10px;
+    background: url(./images/bg_pop_top.gif) repeat-x 0 0;
+    border-right: 2px solid #2e7abe;
+    border-bottom: 2px solid #2e7abe;
+    border-left: 2px solid #2e7abe;
+}
+#head{
+    background: url(./images/bul_type6.gif) no-repeat 0 4px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    padding: 17px 0 14px 11px;
+    margin-bottom: 15px;
+    background-position: 0 22px;
+    border-bottom: 1px solid #d2d2d2;
+    color: #303030;
+}
+#main{
+    padding: 15px 2%;
+    margin: 0 0 15px 0;
+    background: #fafafa;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+}
+#mainlabel{
+    padding-left: 9px;
+    background: url(./images/bul_type3.gif) no-repeat 0 7px;
+    display: inline-block;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    color: #505050;
+}
+#userid{
+    width: 200px;
+    font-size: 12px;
+    padding: 3px 4px;
+    color: #777777;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+}
+#idchkbtn{
+    height: 23px;
+    display: inline-block;
+    padding: 0 10px;
+    background: #f5f5f5;
+    line-height: 22px;
+    border: 1px solid #236fb3;
+    vertical-align: middle;
+    color: #236fb3;
+    font-weight: bold;
+    cursor: pointer;
+}
+#noticebox{
+    overflow: hidden;
+    padding: 15px;
+    background: #f2f9ff;
+    border: 1px solid #659ed0;
+}
+#msg{
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+#wrap>input{
+    display: inline-block;
+    height: 25px;
+    padding: 0 10px;
+    background: #2e7abe;
+    font-weight: bold;
+    color: #fff;
+    line-height: 25px;
+    vertical-align: middle;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    left: 210px;
+    margin: 20px;
+}
+#wrap>#usebtn{
+	display: none;
+}

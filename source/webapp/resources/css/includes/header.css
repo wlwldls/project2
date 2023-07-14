@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 215px;
+    border-bottom: 1px solid #666;
+    /* background-color: aqua; */
+}
+header>#linebox{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #666;
+}
+#inner-header{
+    margin: 0 auto;
+    width: 980px;
+    height: 90px;
+    /* background-color: antiquewhite; */
+}
+#inner-header>#logo1{
+    float: left;
+    width: 150px;
+    height: 90px;
+    /* background-color: beige; */
+}
+#inner-header>#top-signup{
+    float: right;
+    width: 300px;
+    height: 90px;
+    /* background-color: brown; */
+}
+header>nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 125px;
+    background: url(./images/visual_bg.png);
+}
+header>nav>#imgbox{
+    margin: 0 auto;
+    width: 980px;
+    height: 125px;
+    background: url(./images/neo_img_ss2.png)
+    left bottom no-repeat;
+}
+#logo1>a>img{
+    position: relative;
+    width: 150px;
+    top: 20px;
+}
+#top-signup>ul{
+    width: 300px;
+    height: 23px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    
+}
+#top-signup>ul>li{
+    float: left;
+    display: block;
+    width: 70px;
+    height: 16px;
+    text-align: center;
+    font-size: 12px;  
+}
+#top-signup>ul>#line{
+    border-left: 1px solid gray;
+}
+#top-signup>ul>li>a{
+    color: gray;
+    
+}
+#top-signup>ul>li>#a3{
+    color: #c14c53;
+    font-weight: 700;
+}
+#top-signup>ul>li>#a4{
+    color: #377cb6;
+    font-weight: 700;
+}

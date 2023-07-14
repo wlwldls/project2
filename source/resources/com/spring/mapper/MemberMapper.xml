@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.MemberMapper">
+	<insert id="insertMember">
+		insert into memberinfo (schoolname, grade, classnum, stdnum, username, rrnum, agree, mobile1, mobile2, userid,
+		userpwd, memcheck, email, addr1, addr2, addr3, addr4) 
+		values(#{schoolname}, #{grade}, #{classnum}, #{stdnum}, #{username}, #{rrnum}, #{agree}, #{mobile1}, #{mobile2}, 
+		#{userid}, #{userpwd}, #{memcheck}, #{email}, #{addr1}, #{addr2}, #{addr3}, #{addr4})
+	</insert>
+	
+	<resultMap id="selectMemberMap" type="com.spring.domain.MemberVO">
+		<id column="userid" property="userid"/>
+		<result column="userid" property="userid"/>
+		<result column="schoolname" property="schoolname"/>
+		<result column="grade" property="grade"/>
+		<result column="classnum" property="classnum"/>
+		<result column="stdnum" property="stdnum"/>
+		<result column="username" property="username"/>
+		<result column="rrnum" property="rrnum"/>
+		<result column="agree" property="agree"/>
+		<result column="mobile1" property="mobile1"/>
+		<result column="mobile2" property="mobile2"/>
+		<result column="userpwd" property="userpwd"/>
+		<result column="memcheck" property="memcheck"/>
+		<result column="email" property="email"/>
+		<result column="addr" property="addr1"/>
+		<result column="addr" property="addr2"/>
+		<result column="addr" property="addr3"/>
+		<result column="addr" property="addr4"/>
+		<result column="signupdate" property="signupdate"/>
+		<result column="updatedate" property="updatedate"/>
+	</resultMap>
+	<select id="selectMemberByUserid" resultMap="selectMemberMap">
+		select schoolname, grade, classnum, stdnum, username, rrnum, agree, 
+		mobile1, mobile2, userid, userpwd, memcheck, email, addr1, addr2, addr3, addr4, 
+		signupdate, updatedate from MEMBERINFO where userid = #{userid}
+	</select>
+	
+	<select id="selectMemberByParam" resultType="com.spring.domain.MemberVO">
+		select userid from MEMBERINFO where userid = #{userid}
+	</select>
+	
+	<update id="modifymember">
+		update memberinfo set schoolname = #{schoolname}, grade = #{grade}, classnum = #{classnum}, 
+		stdnum = #{stdnum}, rrnum = #{rrnum}, agree = #{agree}, mobile1 = #{mobile1}, mobile2 = #{mobile2},
+		userpwd = #{userpwd}, memcheck = #{memcheck}, email = #{email}, addr1 = #{addr1},
+		addr2 = #{addr2}, addr3 = #{addr3}, addr4 = #{addr4} where userid = #{userid}
+	</update>
+</mapper>
